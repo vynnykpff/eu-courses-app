@@ -1,0 +1,18 @@
+@use './modules/_media.scss';
+@use './modules/_reset.scss';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+@import 'normalize.css';
+
+:root {
+	margin-right: calc(-1 * (100vw - 100%));
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	min-width: media.$MOBILE;
+	font-size: 16px;
+}
