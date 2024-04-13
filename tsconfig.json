@@ -11,10 +11,10 @@
         "src/*"
       ],
       "@constants": [
-        "src/common/constants"
+        "src/shared/constants"
       ],
       "@types": [
-        "src/common/types"
+        "src/shared/types"
       ],
       "@components": [
         "src/components"
