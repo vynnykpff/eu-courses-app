@@ -35,7 +35,7 @@
     "quotes": ["warn", "single"],
     "jsx-quotes": [
       "warn",
-      "prefer-single"
+      "prefer-double"
     ],
     "comma-dangle": [
       "error",

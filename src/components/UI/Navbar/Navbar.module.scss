@@ -1,0 +1,26 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.navbarList {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+
+		.navbarListItem {
+			font-size: 18px;
+			font-weight: 500;
+			transition: .3s ease;
+
+			&:hover {
+				transition: .3s ease;
+				color: #2AAA94;
+			}
+		}
+
+		.logoImage {
+
+		}
+	}
+}
