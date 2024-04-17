@@ -22,7 +22,7 @@ export const Navbar = () => {
   };
 
   return (
-    <nav className={styles.container}>
+    <nav id="home" className={styles.container}>
       <ul className={styles.navbarList}>
         <NavLink to={HOME}>
           <li className={styles.navbarListItem}>

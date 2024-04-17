@@ -1,0 +1,45 @@
+.container {
+	margin: 0 auto;
+	padding: 40px 20px !important;
+
+	.productImageWrapper {
+		text-align: center;
+		margin-bottom: 50px;
+
+		.productImage {
+			border-radius: 20px;
+		}
+	}
+
+	.title {
+		font-size: 25px;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+
+	.description {
+		font-size: 18px;
+		text-align: justify;
+		margin-bottom: 30px;
+	}
+
+	.topicCourseWrapper {
+		margin-bottom: 30px;
+		.topicCourseTitle {
+			font-size: 20px;
+			margin-bottom: 20px;
+		}
+
+		.topicCourseList {
+			padding-left: 20px;
+
+			.topicCourseListItem {
+				font-size: 18px;
+				list-style-type: decimal;
+			}
+		}
+	}
+
+	.button {
+	}
+}

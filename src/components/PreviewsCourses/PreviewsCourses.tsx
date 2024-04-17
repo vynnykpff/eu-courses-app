@@ -11,10 +11,12 @@ export const PreviewsCourses = () => {
           Successful coaches are <br /> visionaries
         </h3>
         <h1 className={styles.title}>
-          Good <span className={styles.accentItem}>coaching</span>
+          Good <span className="accentItem">coaching</span>
           <br /> is good teaching &<br /> nothing else.
         </h1>
-        <Button className={styles.button}>Переглянути курси</Button>
+        <a href="#courses">
+          <Button className={styles.button}>Переглянути курси</Button>
+        </a>
       </div>
       <img className={styles.image} src={personImage} alt="person image" />
       <img className={styles.icon} src={decorIcon} alt="decor icon" />

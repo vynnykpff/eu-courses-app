@@ -11,8 +11,18 @@ html, body {
 	height: 100%;
 }
 
+* {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Poppins', sans-serif;
 	min-width: media.$MOBILE;
 	font-size: 16px;
+	overflow-x: hidden;
+	color: #323232;
+}
+
+.accentItem {
+	color: #4BE5CA;
 }

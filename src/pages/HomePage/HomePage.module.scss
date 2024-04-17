@@ -1,0 +1,21 @@
+.homePageWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 120px;
+
+	.homePageContainer {
+		background-image: url("../../assets/images/background.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+	}
+
+	.container {
+		margin: 0 auto;
+	}
+
+	.coursesContainer {
+		width: 100%;
+		margin: 0 auto;
+	}
+}

@@ -1,0 +1,70 @@
+.container {
+	display: flex;
+	color: #4E596B;
+	flex-direction: column;
+	justify-content: space-between;
+	box-shadow: 0 4px 4px 0 rgba(217, 236, 255, 0.5);
+	border-radius: 20px;
+	width: 440px;
+	height: 450px;
+	cursor: pointer;
+	background-color: #fff;
+	padding: 0 !important;
+	overflow: hidden;
+
+	.courseImageContainer {
+		width: 100%;
+		height: 250px;
+		overflow: hidden;
+
+		.courseImage {
+			width: 100%;
+			object-fit: contain;
+			object-position: 50% 50%;
+		}
+	}
+
+	.contentContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 20px;
+
+		.courseInfoContainer {
+			display: flex;
+			padding: 0;
+			justify-content: space-between;
+			margin-bottom: 20px;
+
+			.courseInfo {
+				font-size: 14px;
+				font-weight: 500;
+			}
+		}
+
+		.title {
+			display: -webkit-box;
+			-webkit-line-clamp: 2;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+			height: 50px;
+			margin-bottom: 30px;
+			font-weight: 600;
+			color: #324361;
+		}
+
+		.courseNavigationContainer {
+			display: flex;
+			justify-content: space-between;
+			padding: 0;
+
+			.coursePrice {
+				font-weight: 600;
+			}
+
+			.courseCart {
+				font-size: 22px;
+			}
+		}
+	}
+}

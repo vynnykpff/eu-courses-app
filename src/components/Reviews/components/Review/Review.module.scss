@@ -1,0 +1,38 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f3f1f1;
+  width: 450px;
+  box-shadow: 0 4px 4px 0 rgba(217, 236, 255, 0.5);
+  height: 420px;
+  border-radius: 20px;
+  padding: 40px;
+
+  .userCredentialsContainer {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-bottom: 20px;
+
+    .userImage {
+      border-radius: 50%;
+    }
+
+    .username {
+      font-weight: 700;
+      font-size: 18px;
+    }
+  }
+
+  .userReview {
+    color: #4e596b;
+    font-weight: 500;
+    line-height: 180%;
+    margin-bottom: 30px;
+  }
+
+  .amountStars {
+    width: 120px;
+  }
+}
