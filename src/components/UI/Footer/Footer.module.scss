@@ -1,4 +1,48 @@
-.container {
-	margin: 0 auto;
-	background-color: #ccc;
+.footerWrapper {
+	background-image: url("../../../assets/images/footer-background.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	.container {
+		margin: 0 auto;
+		padding: 80px 0;
+		color: #fff;
+		display: flex;
+		justify-content: space-between;
+
+
+		.footerLogo {
+			margin-bottom: 50px;
+		}
+
+		.title {
+			font-size: 22px;
+			height: 55px;
+			font-weight: 700;
+			margin-bottom: 50px;
+		}
+
+		.contactsList {
+			display: flex;
+			flex-direction: column;
+			gap: 10px;
+
+			.contactsListItem {
+				display: flex;
+				align-items: center;
+				gap: 20px;
+				font-weight: 500;
+
+				.footerIcon {
+					font-size: 18px;
+				}
+			}
+		}
+
+		.footerText {
+			max-width: 470px;
+			text-align: justify;
+		}
+ 	}
 }

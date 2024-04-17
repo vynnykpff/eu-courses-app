@@ -1,3 +1,3 @@
-export * from './HomePage.tsx';
-export * from './ProductPage.tsx';
-export * from './NotFoundPage.tsx';
+export * from './HomePage';
+export * from './NotFoundPage';
+export * from './ProductPage';

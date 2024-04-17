@@ -1,0 +1,10 @@
+.container {
+	margin-bottom: 120px;
+
+	.reviewsContainer {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		gap: 30px;
+	}
+}

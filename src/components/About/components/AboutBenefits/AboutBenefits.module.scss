@@ -1,0 +1,25 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	color: #fff;
+
+	.benefitContainer {
+		text-align: center;
+		.benefitIcon {
+			margin-bottom: 30px;
+		}
+
+		.benefitTitle {
+			font-size: 22px;
+			font-weight: 700;
+			margin-bottom: 20px;
+		}
+
+		.benefitSubtitle {
+			max-width: 320px;
+			line-height: 180%;
+			font-size: 18px;
+		}
+	}
+}
