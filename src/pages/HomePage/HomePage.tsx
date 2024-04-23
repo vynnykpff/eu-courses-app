@@ -1,5 +1,5 @@
 import { Courses } from '@/components/Courses';
-import { About, Container, PreviewsCourses, Reviews } from '@components';
+import { About, Container, Partners, PreviewsCourses, Reviews } from '@components';
 import styles from './HomePage.module.scss';
 
 export const HomePage = () => {
@@ -9,9 +9,6 @@ export const HomePage = () => {
         <Container className={styles.container}>
           <PreviewsCourses />
         </Container>
-        {/*<div id="contacts" className={styles.section}>*/}
-        {/*  <Container className={styles.container}>Contacts section</Container>*/}
-        {/*</div>*/}
       </div>
       <div id="courses">
         <Container className={styles.coursesContainer}>
@@ -25,6 +22,9 @@ export const HomePage = () => {
       </div>
       <Container className={styles.coursesContainer}>
         <Reviews />
+      </Container>
+      <Container className={styles.coursesContainer}>
+        <Partners />
       </Container>
     </div>
   );
