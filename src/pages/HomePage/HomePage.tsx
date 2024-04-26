@@ -1,5 +1,5 @@
 import { Courses } from '@/components/Courses';
-import { About, Container, Partners, PreviewsCourses, Reviews } from '@components';
+import { About, Certificates, Container, Partners, PreviewsCourses, Reviews } from '@components';
 import styles from './HomePage.module.scss';
 
 export const HomePage = () => {
@@ -25,6 +25,9 @@ export const HomePage = () => {
       </Container>
       <Container className={styles.coursesContainer}>
         <Partners />
+      </Container>
+      <Container className={styles.coursesContainer}>
+        <Certificates />
       </Container>
     </div>
   );

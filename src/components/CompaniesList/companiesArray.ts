@@ -1,3 +1,4 @@
+import { Image } from '@types';
 import Company01 from '#/images/partners/01.png';
 import Company02 from '#/images/partners/02.png';
 import Company03 from '#/images/partners/03.png';
@@ -11,12 +12,7 @@ import Company10 from '#/images/partners/10.png';
 import Company11 from '#/images/partners/11.png';
 import Company12 from '#/images/partners/12.png';
 
-type Company = {
-  src: string;
-  alt: string;
-};
-
-export const companiesArray: Company[] = [
+export const companiesArray: Image[] = [
   { src: Company01, alt: 'Company 1' },
   { src: Company02, alt: 'Company 2' },
   { src: Company03, alt: 'Company 3' },

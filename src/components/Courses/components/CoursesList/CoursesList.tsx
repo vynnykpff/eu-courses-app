@@ -51,7 +51,6 @@ export const CoursesList = () => {
           </Link>
         ))}
       </div>
-      {/*<Button className={styles.button}>Explore courses</Button>*/}
     </div>
   );
 };

@@ -5,3 +5,4 @@ export * from './About';
 export * from './Reviews';
 export * from './Partners';
 export * from './CompaniesList';
+export * from './Certificates';
