@@ -1,0 +1,18 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.grid {
+	display: grid;
+	align-items: center;
+	grid-template-columns: repeat(6, 1fr);
+	grid-column-gap: 50px;
+	grid-row-gap: 25px;
+}
+
+.companyImage {
+	width: 100%;
+	height: auto;
+}

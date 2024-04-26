@@ -8,7 +8,7 @@ export const PreviewsCourses = () => {
     <div className={styles.container}>
       <div className={styles.contentWrapper}>
         <h3 className={styles.subtitle}>
-          Successful coaches are <br /> visionaries
+          Ліцензія серія ВО No00228-022801 <br /> від 15.05.2017
         </h3>
         <h1 className={styles.title}>
           Good <span className="accentItem">coaching</span>
