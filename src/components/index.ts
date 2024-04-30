@@ -6,3 +6,5 @@ export * from './Reviews';
 export * from './Partners';
 export * from './CompaniesList';
 export * from './Certificates';
+export * from './Templates';
+export * from './Courses';

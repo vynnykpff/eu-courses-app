@@ -1,5 +1,4 @@
-import { Courses } from '@/components/Courses';
-import { About, Certificates, Container, Partners, PreviewsCourses, Reviews } from '@components';
+import { About, Certificates, Container, Courses, Partners, PreviewsCourses, Reviews } from '@components';
 import styles from './HomePage.module.scss';
 
 export const HomePage = () => {

@@ -1,3 +1,4 @@
 export * from './Navbar';
-export * from './Course';
+export * from './Courses';
 export * from './Global';
+export * from './StoreAsyncThunk';
