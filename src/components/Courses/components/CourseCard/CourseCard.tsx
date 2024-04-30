@@ -1,20 +1,20 @@
 import { Container } from '@components';
-import { CourseItem } from '@types';
+import { CourseFields } from '@types';
 import { BiCartAlt } from 'react-icons/bi';
 import styles from './CourseCard.module.scss';
 
-export const CourseCard = (props: CourseItem) => {
-  const { title, price, duration, students, image } = props;
+export const CourseCard = (props: CourseFields) => {
+  const { title, price, previewImage, courseDuration, students } = props;
 
   return (
     <Container className={styles.container}>
       <div className={styles.courseImageContainer}>
-        <img className={styles.courseImage} src={image} alt="" />
+        <img className={styles.courseImage} src={previewImage} alt={title} />
       </div>
       <Container className={styles.contentContainer}>
         <Container className={styles.courseInfoContainer}>
           <p className={styles.courseInfo}>{students} Студентів</p>
-          <p className={styles.courseInfo}>{duration}</p>
+          <p className={styles.courseInfo}>{courseDuration}</p>
         </Container>
         <p className={styles.title}>{title}</p>
         <Container className={styles.courseNavigationContainer}>
