@@ -40,6 +40,11 @@
 		}
 	}
 
-	.button {
+	.buttonWrapper {
+		max-width: 180px;
+
+		.button {
+			width: 100%;
+		}
 	}
 }

@@ -34,8 +34,7 @@ export const ProductPage = () => {
         <div className={styles.contentContainer}>
           <h5 className={styles.title}>{title}</h5>
           {renderContent()}
-          {/*TODO: fix length*/}
-          <a target="_blank" href={button}>
+          <a className={styles.buttonWrapper} target="_blank" href={button}>
             <Button className={styles.button}>Зареєструватись</Button>
           </a>
         </div>
