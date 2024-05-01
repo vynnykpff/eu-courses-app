@@ -33,15 +33,16 @@ export const Footer = () => {
           <ul className={styles.contactsList}>
             <li className={styles.contactsListItem}>
               <FiPhone className={styles.footerIcon} />
-              <a href="tel:2095550104">(209) 555-0104</a>
+              <a href="tel:0443345304">(044) 334-53-04</a>
+              <a href="tel:0503560245">(050) 356-02-45</a>
             </li>
             <li className={styles.contactsListItem}>
               <IoMailOutline className={styles.footerIcon} />
-              <a href="mailto:michelle.rivera@example.com">michelle.rivera@example.com</a>
+              <a href="mailto:vstup@e-u.edu.ua">vstup@e-u.edu.ua</a>
             </li>
             <li className={styles.contactsListItem}>
               <GrLocation className={styles.footerIcon} />
-              <a href="">2715 Ash Dr. San Jose, South Dakota 83475</a>
+              <a href="">м. Київ,бульвар академіка Вернадського, 16 В(головний корпус)</a>
             </li>
           </ul>
         </div>
