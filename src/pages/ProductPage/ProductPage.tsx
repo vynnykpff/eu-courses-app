@@ -34,8 +34,8 @@ export const ProductPage = () => {
         <div className={styles.contentContainer}>
           <h5 className={styles.title}>{title}</h5>
           {renderContent()}
-          <a target="_blank" href={button}>
-            <Button className={styles.button}>Детальніше</Button>
+          <a className={styles.buttonWrapper} target="_blank" href={button}>
+            <Button className={styles.button}>Зареєструватись</Button>
           </a>
         </div>
       </LoaderWrapper>
