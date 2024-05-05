@@ -1,5 +1,5 @@
-@use './modules/_media.scss';
 @use './modules/_reset.scss';
+@import './modules/_media.scss';
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 @import 'normalize.css';
 
@@ -11,18 +11,18 @@ html, body {
 	height: 100%;
 }
 
-* {
-	scroll-behavior: smooth;
-}
-
 body {
 	font-family: 'Poppins', sans-serif;
-	min-width: media.$MOBILE;
+	min-width: $MOBILE;
 	font-size: 16px;
 	overflow-x: hidden;
 	color: #323232;
 }
 
 .accentItem {
-	color: #4BE5CA;
+	color: #0a3ed1;
+}
+
+body[data-burger-open] {
+	overflow: hidden;
 }

@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 30px;
+	border-radius: 12px;
+	width: 440px;
+	border: 1.5px solid #e2e2e2;
+
+	.aboutImage {
+		width: 60px;
+	}
+
+	.aboutContent {
+		font-size: 18px;
+		font-weight: 500;
+		line-height: 180%;
+	}
+}

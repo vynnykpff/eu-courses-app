@@ -1,0 +1,73 @@
+.test {
+	position: absolute;
+	z-index: 110;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+}
+
+.navbarMobileContainer {
+	width: 100%;
+
+	.navbarMobileContent {
+		position: absolute;
+		right: 0;
+		background-color: #fff;
+		height: 100%;
+		width: 100%;
+		max-width: 280px;
+		padding: 70px 30px;
+		z-index: 4;
+
+		.navbarList {
+			display: flex;
+			flex-direction: column;
+			position: relative;
+			gap: 20px;
+		}
+
+		.closeBurgerButton {
+			position: absolute;
+			top: 72px;
+			right: 30px;
+			cursor: pointer;
+			z-index: 5;
+		}
+	}
+}
+
+.navbarActiveListItem {
+	width: 100%;
+}
+
+.navbarMobileContainerActive {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	min-width: 350px;
+	height: 100vh;
+	z-index: 4;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbarList {
+	display: flex;
+	align-items: center;
+	gap: 40px;
+
+	.navbarListItem {
+		font-size: 18px;
+		font-weight: 600;
+		transition: .3s ease;
+
+		&:hover {
+			transition: .3s ease;
+			color: #0a3ed1;
+		}
+	}
+
+	.logoImage {
+
+	}
+}

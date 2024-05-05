@@ -22,8 +22,8 @@ export const Certificates = () => {
         modules={[Pagination, Navigation]}
         className="mySwiper"
       >
-        {certificatesArray.map(({ src, alt }) => (
-          <SwiperSlide>
+        {certificatesArray.map(({ src, alt }, index) => (
+          <SwiperSlide key={index}>
             <img className={styles.certificateImage} src={src} alt={alt} />
           </SwiperSlide>
         ))}

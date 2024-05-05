@@ -10,11 +10,11 @@ export const Footer = () => {
   return (
     <footer id="contacts" className={styles.footerWrapper}>
       <Container className={styles.container}>
-        <div>
-          <img className={styles.footerLogo} src={footerLogo} alt="" />
+        <div className={styles.footerLogoWrapper}>
+          <img className={styles.footerLogo} src={footerLogo} alt="логотип підвалу" />
           <p className={styles.footerText}>Ліцензія серія ВО No00228-022801 від 15.05.2017</p>
         </div>
-        <div>
+        <div className={styles.contentContainer}>
           <p className={styles.title}>Посилання</p>
           <ul className={styles.contactsList}>
             <li className={styles.contactsListItem}>
@@ -28,7 +28,7 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className={styles.contentContainer}>
           <p className={styles.title}>Контакти</p>
           <ul className={styles.contactsList}>
             <li className={styles.contactsListItem}>
@@ -42,7 +42,9 @@ export const Footer = () => {
             </li>
             <li className={styles.contactsListItem}>
               <GrLocation className={styles.footerIcon} />
-              <a href="">м. Київ,бульвар академіка Вернадського, 16 В(головний корпус)</a>
+              <a target="_blank" href="https://maps.app.goo.gl/bBgvFZrpUtAjV37s5">
+                м. Київ,бульвар академіка Вернадського, 16 В(головний корпус)
+              </a>
             </li>
           </ul>
         </div>

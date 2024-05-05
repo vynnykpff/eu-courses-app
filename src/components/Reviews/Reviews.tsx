@@ -1,3 +1,4 @@
+import { reviewsArray } from './reviewsArray.ts';
 import { Review, ReviewsHeader } from './components';
 import styles from './Reviews.module.scss';
 
@@ -6,9 +7,9 @@ export const Reviews = () => {
     <div className={styles.container}>
       <ReviewsHeader />
       <div className={styles.reviewsContainer}>
-        <Review />
-        <Review />
-        <Review />
+        {reviewsArray.map((review, index) => (
+          <Review key={index} {...review} />
+        ))}
       </div>
     </div>
   );

@@ -5,7 +5,7 @@
 	justify-content: space-between;
 	box-shadow: 0 4px 4px 0 rgba(217, 236, 255, 0.5);
 	border-radius: 20px;
-	width: 440px;
+	max-width: 440px;
 	height: 450px;
 	cursor: pointer;
 	background-color: #fff;
@@ -19,8 +19,8 @@
 
 		.courseImage {
 			width: 100%;
-			object-fit: contain;
-			object-position: 50% 50%;
+			height: 100%;
+			object-fit: cover;
 		}
 	}
 
@@ -51,6 +51,7 @@
 			margin-bottom: 30px;
 			font-weight: 600;
 			color: #324361;
+			font-size: 17px;
 		}
 
 		.courseNavigationContainer {

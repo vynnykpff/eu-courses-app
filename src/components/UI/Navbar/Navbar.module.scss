@@ -2,25 +2,11 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	position: relative;
 
-	.navbarList {
-		display: flex;
-		align-items: center;
-		gap: 40px;
-
-		.navbarListItem {
-			font-size: 18px;
-			font-weight: 600;
-			transition: .3s ease;
-
-			&:hover {
-				transition: .3s ease;
-				color: #2AAA94;
-			}
-		}
-
-		.logoImage {
-
+	.logoImage {
+		@media (max-width: 480px) {
+			width: 250px;
 		}
 	}
 }

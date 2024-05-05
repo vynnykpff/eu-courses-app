@@ -11,8 +11,7 @@ export const PreviewsCourses = () => {
           Ліцензія серія ВО No00228-022801 <br /> від 15.05.2017
         </h3>
         <h1 className={styles.title}>
-          Good <span className="accentItem">coaching</span>
-          <br /> is good teaching &<br /> nothing else.
+          Сертифіковані курси від <br /> Європейського університету
         </h1>
         <a href="#courses">
           <Button className={styles.button}>Переглянути курси</Button>

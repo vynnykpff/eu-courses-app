@@ -1,5 +1,7 @@
+import { useMatchMedia } from '@hooks';
 import { NavbarMenuItem } from '@types';
 import { NavLink } from 'react-router-dom';
+import { NavbarDesktop, NavbarMobile } from './components';
 import { Routes } from '@constants';
 import logoImage from '#/images/logo.svg';
 import styles from './Navbar.module.scss';
@@ -14,6 +16,8 @@ const navbarMenu: NavbarMenuItem[] = [
 ];
 
 export const Navbar = () => {
+  const isMobile = useMatchMedia('(max-width: 768px)');
+
   const handleClick = (targetId: string) => {
     const targetElement = document.getElementById(targetId);
     if (targetElement) {
@@ -30,15 +34,11 @@ export const Navbar = () => {
           </li>
         </NavLink>
       </ul>
-      <ul className={styles.navbarList}>
-        {navbarMenu.map(({ title, targetId }) => (
-          <li className={styles.navbarListItem} key={targetId}>
-            <NavLink to={HOME} onClick={() => handleClick(targetId)}>
-              {title}
-            </NavLink>
-          </li>
-        ))}
-      </ul>
+      {isMobile ? (
+        <NavbarMobile navbarMenu={navbarMenu} handleClick={handleClick} />
+      ) : (
+        <NavbarDesktop navbarMenu={navbarMenu} handleClick={handleClick} />
+      )}
     </nav>
   );
 };

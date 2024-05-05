@@ -1,18 +1,15 @@
-import userImage from '#/images/04.png';
 import userReviewStars from '#/icons/05.svg';
+import { ReviewItem } from '@types';
 import styles from './Review.module.scss';
 
-export const Review = () => {
+export const Review = ({ review, name, img }: ReviewItem) => {
   return (
     <div className={styles.container}>
       <div className={styles.userCredentialsContainer}>
-        <img className={styles.userImage} src={userImage} alt="" />
-        <p className={styles.username}>Ronald Richards</p>
+        <img className={styles.userImage} src={img} alt={name} />
+        <p className={styles.username}>{name}</p>
       </div>
-      <p className={styles.userReview}>
-        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Duis aute irure dolor
-        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-      </p>
+      <p className={styles.userReview}>{review}</p>
       <img className={styles.amountStars} src={userReviewStars} alt="" />
     </div>
   );

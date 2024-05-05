@@ -1,6 +1,6 @@
 .container {
 	margin: 0 auto;
-	padding: 0;
+	padding: 0 20px;
 
 	.footerBorder {
 		opacity: 0.5;
@@ -12,6 +12,11 @@
 		display: flex;
 		justify-content: space-between;
 		padding: 30px 0;
+
+		@media (max-width: 480px) {
+			flex-direction: column-reverse;
+			align-items: center;
+		}
 	}
 
 	.socialMediasList {

@@ -1,0 +1,25 @@
+.container {
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	align-items: center;
+
+	.title {
+		font-weight: 700;
+		font-size: 40px;
+		text-align: center;
+
+		@media (max-width: 968px) {
+			font-size: 30px;
+		}
+	}
+
+	.subtitle {
+		font-size: 20px;
+		font-weight: 400;
+		max-width: 600px;
+		text-align: center;
+		line-height: 180%;
+	}
+}
