@@ -2,6 +2,10 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	.listWrapper {
+	}
+
 }
 
 .grid {
@@ -15,4 +19,5 @@
 .companyImage {
 	width: 100%;
 	height: auto;
+	padding-right: 50px;
 }

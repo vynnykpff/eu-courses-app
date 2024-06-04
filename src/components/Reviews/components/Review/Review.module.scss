@@ -8,7 +8,6 @@
   height: 420px;
   border-radius: 20px;
   padding: 40px;
-  text-align: justify;
 
   .userCredentialsContainer {
     display: flex;
@@ -18,6 +17,9 @@
 
     .userImage {
       border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
     }
 
     .username {
@@ -31,6 +33,7 @@
     font-weight: 500;
     line-height: 180%;
     margin-bottom: 30px;
+    font-size: 18px;
   }
 
   .amountStars {

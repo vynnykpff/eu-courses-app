@@ -4,7 +4,7 @@ import { BiCartAlt } from 'react-icons/bi';
 import styles from './CourseCard.module.scss';
 
 export const CourseCard = (props: CourseFields) => {
-  const { title, price, previewImage, courseDuration, students } = props;
+  const { title, price, previewImage, courseDuration } = props;
 
   return (
     <Container className={styles.container}>
@@ -13,7 +13,6 @@ export const CourseCard = (props: CourseFields) => {
       </div>
       <Container className={styles.contentContainer}>
         <Container className={styles.courseInfoContainer}>
-          <p className={styles.courseInfo}>{students} Студентів</p>
           <p className={styles.courseInfo}>{courseDuration}</p>
         </Container>
         <p className={styles.title}>{title}</p>

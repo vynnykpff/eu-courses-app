@@ -35,7 +35,7 @@
         "src/utils"
       ],
       "!/*": [
-        "public/*",
+        "public/*"
       ],
       "#/*": [
         "src/assets/*"
@@ -56,6 +56,10 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src", "vite.config.ts"],
+  "include": [
+    "src",
+    "vite.config.ts",
+    "globals.d.ts"
+  ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

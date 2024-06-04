@@ -4,6 +4,10 @@
 	margin-bottom: 120px;
 	gap: 120px;
 
+	@media (max-width: 768px) {
+		gap: 60px
+	}
+
 	.homePageContainer {
 		background-image: url("../../assets/images/background.png");
 		background-repeat: no-repeat;

@@ -1,2 +1,1 @@
-export * from './AboutHeader';
-export * from './AboutBenefits';
+export * from './AboutCard';
