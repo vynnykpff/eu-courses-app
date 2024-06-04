@@ -35,7 +35,9 @@ export const ProductPage = () => {
           <h5 className={styles.title}>{title}</h5>
           {renderContent()}
           <a className={styles.buttonWrapper} target="_blank" href={button}>
-            <Button className={styles.button}>Зареєструватись</Button>
+            <Button className={styles.button} onClick={() => fbq('track', 'Lead')}>
+              Зареєструватись
+            </Button>
           </a>
         </div>
       </LoaderWrapper>
