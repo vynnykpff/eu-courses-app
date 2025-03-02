@@ -1,4 +1,4 @@
-import { About, Benefits, Certificates, Container, Courses, Partners, PreviewsCourses, Reviews } from '@components';
+import { Benefits, Certificates, Container, Courses, Partners, PreviewsCourses, Reviews } from '@components';
 import styles from './HomePage.module.scss';
 
 export const HomePage = () => {
@@ -9,11 +9,12 @@ export const HomePage = () => {
           <PreviewsCourses />
         </Container>
       </div>
-      <div id="about">
-        <Container className={styles.coursesContainer}>
-          <About />
-        </Container>
-      </div>
+      {/* About block */}
+      {/*<div id="about">*/}
+      {/*  <Container className={styles.coursesContainer}>*/}
+      {/*    <About />*/}
+      {/*  </Container>*/}
+      {/*</div>*/}
       <div id="courses">
         <Container className={styles.coursesContainer}>
           <Courses />
